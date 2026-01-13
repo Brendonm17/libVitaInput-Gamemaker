@@ -1,0 +1,19 @@
+vita_input:
+  attributes: 0
+  version: 1
+  libname: vita_input
+  libraries:
+    - libname: vita_input
+      nid: 0x12345678
+      functions:
+        - vita_init
+        - vita_update
+        - vita_is_connected
+        - vita_get_type
+        - vita_check
+        - vita_axis
+        - vita_set_rumble
+        - vita_set_light
+        - vita_get_quat
+        - vita_get_touch
+        - vita_get_battery
